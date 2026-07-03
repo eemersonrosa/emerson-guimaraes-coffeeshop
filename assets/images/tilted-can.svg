@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <g transform="rotate(-18 150 150)">
+    <rect x="110" y="55" width="80" height="200" rx="12" fill="#393939"/>
+    <rect x="110" y="55" width="80" height="16" rx="8" fill="#5a5a5a"/>
+    <rect x="110" y="105" width="80" height="90" fill="#fff0ed"/>
+    <text x="150" y="140" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#393939" text-anchor="middle" letter-spacing="1">EMBER</text>
+    <text x="150" y="158" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#5bacc3" text-anchor="middle" letter-spacing="2">COLD BREW</text>
+    <path d="M150 168 C 146 176 154 180 150 188 C 154 184 147 180 150 168 Z" fill="#5bacc3"/>
+  </g>
+</svg>

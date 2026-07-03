@@ -1,0 +1,268 @@
+/* ==========================================================================
+   Landing page
+   ========================================================================== */
+
+/* --- Hero --- */
+.header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem var(--page-padding) 3rem;
+}
+
+.header-block-left {
+  max-width: 28rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+}
+
+.header-coffee-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem;
+}
+
+.main-coffee-page-image {
+  margin: 0;
+  width: min(60vw, 20rem);
+}
+
+@media (min-width: 48rem) {
+  .header-block {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+
+  .hero-title {
+    font-size: 3.25rem;
+  }
+
+  .header-coffee-description {
+    font-size: 1.25rem;
+  }
+
+  .main-coffee-page-image {
+    width: min(30vw, 24rem);
+  }
+}
+
+/* --- Products --- */
+#our-products {
+  padding: 2rem var(--page-padding) 3rem;
+}
+
+.main-product-h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.main-product-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 70rem;
+  margin: 0 auto 3rem;
+}
+
+.main-product-box {
+  border-radius: 0.63rem;
+  box-shadow: 0 0.3rem 0.6rem -0.05rem rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-product-image {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  max-height: 17rem;
+  object-fit: contain;
+}
+
+.products-box-bottom {
+  margin-top: auto;
+  background-color: var(--color-pink);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.main-product-name {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0 0 0.25rem;
+}
+
+.main-product-quantity {
+  font-weight: 300;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.main-product-price {
+  color: var(--color-blue);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+@media (min-width: 48rem) {
+  .main-product-h2 {
+    font-size: 2.5rem;
+  }
+
+  .main-product-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* --- "We're Different" --- */
+#different {
+  padding: 3rem var(--page-padding);
+}
+
+.different-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.different-block-left {
+  max-width: 28rem;
+}
+
+.different-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+}
+
+.different-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+
+.different-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.different-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+/* Offset-border image block; can spins on hover (original animation) */
+.different-image-border {
+  position: relative;
+  display: inline-block;
+  margin: 0 1.25rem 1.25rem 0;
+}
+
+.different-image-border::after {
+  content: "";
+  border: 0.3rem solid var(--color-blue);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -1.25rem;
+  left: -1.25rem;
+  z-index: 1;
+}
+
+.different-image-block {
+  background: url(../assets/images/pattern-brew.svg);
+  background-size: cover;
+  background-position: center;
+  width: min(80vw, 25rem);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.different-image-can {
+  width: 55%;
+}
+
+.different-image-border:hover .different-image-can {
+  animation: rotateInfinite 2s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 48rem) {
+  .different-block {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .different-title {
+    font-size: 3rem;
+  }
+
+  .different-description {
+    font-size: 1.25rem;
+  }
+}
+
+/* --- Discount banner (flash animation preserved) --- */
+.main-discount-text-container {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.main-discount-text {
+  color: var(--color-white);
+  background: var(--color-graphite);
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  animation: flashBackground 2.5s infinite alternate;
+}
+
+@keyframes flashBackground {
+  0% {
+    background: var(--color-graphite);
+  }
+
+  100% {
+    background: var(--color-blue);
+  }
+}
+
+@media (min-width: 48rem) {
+  .main-discount-text {
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+  }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emerson Guimaraes">
+    <meta name="description" content="Ember &amp; Pine Coffee — a fictional demo coffee shop. Small-batch cold brew, beans, and pastries.">
+    <title>Ember &amp; Pine Coffee | Home</title>
+    <link rel="icon" href="./assets/logos/logo-emberpine.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/landing.css">
+</head>
+
+<body>
+    <header class="pink-background">
+        <nav class="header-nav">
+            <a href="./index.html" class="header-logo">
+                <img src="./assets/logos/logo-emberpine.svg" alt="Ember &amp; Pine logo" class="header-logo-image">
+            </a>
+            <h2 class="header-wordmark">
+                <a href="./index.html">ember &amp; pine</a>
+            </h2>
+            <ul class="header-nav-links no-bullets">
+                <li><a href="#different" class="no-decoration font-graphite">ABOUT</a></li>
+                <li><a href="./pages/menu.html" class="no-decoration font-graphite">MENU</a></li>
+                <li><a href="./pages/menu.html" class="no-decoration font-blue">SHOP NOW</a></li>
+            </ul>
+        </nav>
+        <section class="header-block">
+            <div class="header-block-left">
+                <h1 class="hero-title">Small-Batch Cold Brew</h1>
+                <p class="header-coffee-description">Slow-steeped for eighteen hours and canned the same morning,
+                    our cold brew is smooth, naturally sweet, and never bitter.</p>
+                <a href="./pages/menu.html" class="no-decoration">
+                    <div class="button-border-container">
+                        <button class="button">SHOP NOW</button>
+                    </div>
+                </a>
+            </div>
+            <figure class="main-coffee-page-image">
+                <img src="./assets/images/hero-can.svg" alt="Illustrated Ember &amp; Pine cold brew can">
+            </figure>
+        </section>
+    </header>
+
+    <main>
+        <section id="our-products" class="grey-background">
+            <h2 class="main-product-h2">Our Products</h2>
+            <div class="main-product-list">
+                <article class="main-product-box">
+                    <img src="./assets/images/product-beans.svg" alt="Illustrated bag of Ember &amp; Pine beans" class="main-product-image">
+                    <footer class="products-box-bottom">
+                        <div class="products-box-under-image">
+                            <h3 class="main-product-name">Whole Beans</h3>
+                            <p class="main-product-quantity">Pack of 3</p>
+                        </div>
+                        <p class="main-product-price">$19</p>
+                    </footer>
+                </article>
+                <article class="main-product-box">
+                    <img src="./assets/images/product-coldbrew.svg" alt="Illustrated can of cold brew" class="main-product-image">
+                    <footer class="products-box-bottom">
+                        <div class="products-box-under-image">
+                            <h3 class="main-product-name">Cold Brew</h3>
+                            <p class="main-product-quantity">1 can</p>
+                        </div>
+                        <p class="main-product-price">$5</p>
+                    </footer>
+                </article>
+                <article class="main-product-box">
+                    <img src="./assets/images/product-cup.svg" alt="Illustrated cup of house roast" class="main-product-image">
+                    <footer class="products-box-bottom">
+                        <div class="products-box-under-image">
+                            <h3 class="main-product-name">House Roast</h3>
+                            <p class="main-product-quantity">1 cup</p>
+                        </div>
+                        <p class="main-product-price">$3</p>
+                    </footer>
+                </article>
+            </div>
+            <div class="button-container">
+                <a href="./pages/menu.html">
+                    <div class="button-border-container">
+                        <button class="button">VIEW ALL</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="different" class="white-background">
+            <article class="different-block">
+                <div class="different-block-left">
+                    <h2 class="different-title">We're Different</h2>
+                    <p class="different-description">We source direct from three family farms, roast in the back of
+                        the shop every Tuesday, and can our cold brew the same week it's brewed. Small batches,
+                        short distances, no shortcuts.</p>
+                    <div class="different-icons">
+                        <img src="./assets/icons/icon-plant.svg" class="different-icon" alt="Coffee plant icon">
+                        <img src="./assets/icons/icon-beans.svg" class="different-icon" alt="Coffee beans icon">
+                        <img src="./assets/icons/icon-cup.svg" class="different-icon" alt="Coffee cup icon">
+                    </div>
+                    <a href="./pages/menu.html" class="no-decoration">
+                        <div class="button-border-container">
+                            <button class="button">LEARN MORE</button>
+                        </div>
+                    </a>
+                </div>
+                <figure class="different-image-border">
+                    <div class="different-image-block">
+                        <img src="./assets/images/tilted-can.svg" alt="Tilted cold brew can" class="different-image-can">
+                    </div>
+                </figure>
+            </article>
+            <div class="main-discount-text-container">
+                <p class="main-discount-text">Get 20% off your first order with code: <strong>EMBER20</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer pink-background">
+        <img src="./assets/logos/bean-decor.svg" alt="" class="footer-decor footer-decor--left" aria-hidden="true">
+        <img src="./assets/logos/bean-decor.svg" alt="" class="footer-decor footer-decor--right" aria-hidden="true">
+
+        <section class="footer-box">
+            <article id="address">
+                <h3 class="footer-text-h3">Address</h3>
+                <div class="footer-text-p">
+                    <p>14 Alder Lane</p>
+                    <p>Portland, OR</p>
+                </div>
+            </article>
+
+            <article id="hours">
+                <h3 class="footer-text-h3">Hours</h3>
+                <div class="footer-text-p">
+                    <p><strong>Monday - Friday:</strong> 7am - 6pm</p>
+                    <p><strong>Saturday - Sunday:</strong> 8am - 4pm</p>
+                </div>
+            </article>
+
+            <article id="social">
+                <h3 class="footer-text-h3">Social</h3>
+                <div class="footer-text-icons">
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <img src="./assets/icons/icon-camera.svg" alt="Instagram" class="footer-icon">
+                    </a>
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <img src="./assets/icons/icon-people.svg" alt="Facebook" class="footer-icon">
+                    </a>
+                    <a href="https://www.yelp.com/" aria-label="Reviews">
+                        <img src="./assets/icons/icon-star.svg" alt="Reviews" class="footer-icon">
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <p class="footer-copyright">© 2026 Ember &amp; Pine Coffee — a fictional shop. All site content is original demo material.</p>
+    </footer>
+</body>
+
+</html>

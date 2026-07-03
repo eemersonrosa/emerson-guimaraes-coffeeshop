@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280">
+  <path d="M110 80 h100 l-12 160 a12 12 0 0 1 -12 11 h-52 a12 12 0 0 1 -12 -11 z" fill="#fff0ed" stroke="#393939" stroke-width="5"/>
+  <rect x="100" y="66" width="120" height="16" rx="8" fill="#393939"/>
+  <path d="M126 130 h68 l-5 60 h-58 z" fill="#5bacc3" opacity="0.25"/>
+  <path d="M148 30 c0-8 6-8 6-16 M168 30 c0-8 6-8 6-16" fill="none" stroke="#393939" stroke-width="4" stroke-linecap="round"/>
+  <text x="160" y="165" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#393939" text-anchor="middle" letter-spacing="1">E&amp;P</text>
+</svg>

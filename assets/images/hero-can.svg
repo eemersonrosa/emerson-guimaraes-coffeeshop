@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <ellipse cx="200" cy="470" rx="130" ry="18" fill="#393939" opacity="0.12"/>
+  <rect x="120" y="60" width="160" height="400" rx="18" fill="#393939"/>
+  <rect x="120" y="60" width="160" height="30" rx="14" fill="#4a4a4a"/>
+  <ellipse cx="200" cy="62" rx="80" ry="14" fill="#5a5a5a"/>
+  <rect x="120" y="150" width="160" height="180" fill="#fff0ed"/>
+  <path d="M160 240 C 154 252 166 258 160 270 C 166 264 155 259 160 240 Z" fill="#5bacc3"/>
+  <text x="200" y="215" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#393939" text-anchor="middle" letter-spacing="2">EMBER</text>
+  <text x="200" y="245" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#393939" text-anchor="middle" letter-spacing="4">&amp; PINE</text>
+  <text x="200" y="300" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5bacc3" text-anchor="middle" letter-spacing="3">COLD BREW</text>
+</svg>
