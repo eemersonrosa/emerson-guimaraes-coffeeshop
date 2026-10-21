@@ -151,7 +151,10 @@ img {
   left: 0;
 }
 
+/* Styled as a button but rendered as a span inside the link: a <button>
+   nested in an <a> is invalid and takes two tab stops. */
 .button {
+  display: inline-block;
   background-color: var(--color-blue);
   color: var(--color-white);
   font-family: inherit;
